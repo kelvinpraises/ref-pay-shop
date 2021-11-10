@@ -10,6 +10,7 @@
     "out": "yarn build && yarn export"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "firebase": "^9.3.0",
     "next": "12.0.2",
     "react": "17.0.2",

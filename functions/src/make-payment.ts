@@ -19,7 +19,7 @@ export default functions.https.onCall(
       amount: price,
       successUrl: "http://reef-pay-shop.web.app/success",
       cancelUrl: "http://reef-pay-shop.web.app/canceled",
-      callbackUrl: "http://reef-pay-shop.web.app/callback", // TODO: funtions callback
+      callbackUrl: "http://reef-pay-shop.web.app/api/webhook", // TODO: funtions callback
     });
 
     const options = {
